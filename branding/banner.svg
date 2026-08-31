@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Orchestra</title>
+  <desc id="desc">A seven-movement orchestration of mathematical modeling research, computation, and delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f17"/>
+      <stop offset="0.55" stop-color="#121828"/>
+      <stop offset="1" stop-color="#1b2438"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.16" cy="0.42" r="0.72">
+      <stop offset="0" stop-color="#c9a24b" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#c9a24b" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#c9a24b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c67c"/>
+      <stop offset="0.55" stop-color="#c9a24b"/>
+      <stop offset="1" stop-color="#9a7424"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="6" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#halo)"/>
+  <g stroke="#ffffff" stroke-opacity="0.045" stroke-width="1">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+  </g>
+  <g transform="translate(64 92) scale(1.375)" filter="url(#shadow)">
+    <g fill="none" stroke-linecap="round">
+      <path stroke="#3c4a63" stroke-width="9.5" d="M 69.12 22.31 A 42 42 0 0 1 93.40 34.01"/>
+      <path stroke="url(#gold)" stroke-width="9.5" d="M 99.78 42.01 A 42 42 0 0 1 105.78 68.29"/>
+      <path stroke="#3c4a63" stroke-width="9.5" d="M 103.50 78.27 A 42 42 0 0 1 86.70 99.34"/>
+      <path stroke="#3c4a63" stroke-width="9.5" d="M 77.48 103.78 A 42 42 0 0 1 50.52 103.78"/>
+      <path stroke="#3c4a63" stroke-width="9.5" d="M 41.30 99.34 A 42 42 0 0 1 24.50 78.27"/>
+      <path stroke="#3c4a63" stroke-width="9.5" d="M 22.22 68.29 A 42 42 0 0 1 28.22 42.01"/>
+      <path stroke="#3c4a63" stroke-width="9.5" d="M 34.60 34.01 A 42 42 0 0 1 58.88 22.31"/>
+    </g>
+    <circle cx="64" cy="64" r="4.4" fill="url(#gold)"/>
+  </g>
+  <text x="360" y="152" fill="#f2f5fa" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="600" letter-spacing="2">Orchestra</text>
+  <text x="365" y="198" fill="#c9a24b" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="6.5">MATHEMATICAL MODELING WORKFLOW</text>
+  <text x="365" y="248" fill="#aeb9cc" font-family="'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-size="22" letter-spacing="2">从问题研判、真实计算到证据表达与提交验收的完整编排</text>
+  <line x1="365" y1="266" x2="483" y2="266" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2.5" fill="#7f8ca3">
+    <text x="365" y="300">DISCOVERY</text>
+    <text x="470" y="300">FORMULATION</text>
+    <text x="592" y="300">COMPUTATION</text>
+    <text x="728" y="300">EVIDENCE</text>
+    <text x="820" y="300">SCHEMATICS</text>
+    <text x="944" y="300">MANUSCRIPT</text>
+    <text x="1062" y="300">ASSURANCE</text>
+  </g>
+</svg>
